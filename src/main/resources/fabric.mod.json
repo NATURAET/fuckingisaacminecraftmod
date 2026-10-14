@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "isaacmod",
+  "version": "${version}",
+  "name": "Isaac in Minecraft",
+  "description": "Стрельба слезами, пассивные предметы, сердца, бомбы и D6 в духе Binding of Isaac.",
+  "authors": ["You"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.isaacmod.IsaacMod"],
+    "client": ["com.isaacmod.IsaacModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
