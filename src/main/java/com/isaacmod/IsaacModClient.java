@@ -6,7 +6,7 @@ import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 
 public class IsaacModClient implements ClientModInitializer {
     @Override
-    public void onInitialize() {
+    public void onInitializeClient() {
         EntityRendererRegistry.register(IsaacMod.TEAR, FlyingItemEntityRenderer::new);
     }
 }
