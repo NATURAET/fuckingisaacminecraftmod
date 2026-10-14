@@ -80,7 +80,7 @@ public class IsaacMod implements ModInitializer {
                         }))
                         .then(CommandManager.literal("stop").executes(c -> {
                             ServerPlayerEntity p = c.getSource().getPlayerOrThrow();
-                            p.removeCommandTag(TAG);
+                            p.removeScoreboardTag(TAG);
                             applyStats(p);
                             return 1;
                         }))
